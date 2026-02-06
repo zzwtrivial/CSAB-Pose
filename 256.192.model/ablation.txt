@@ -1,0 +1,29 @@
+python uni_test.py --model E_CPN50 --path ablation_ckpt/wo_denoise-5.pth.tar --save wo_d
+Extreme  Test Acc: 0.17184741000056034
+Hard     Test Acc: 0.26717407950532485
+Normal   Test Acc: 0.32440718364220444
+All      Test Acc: 0.2622035800987139
+
+python uni_test.py --model E_CPN50 --path ablation_ckpt/wo_denoise-15.pth.tar --save wo_d2
+Extreme  Test Acc: 0.14680833027831758
+Hard     Test Acc: 0.2568211566543398
+Normal   Test Acc: 0.3319735815998474
+All      Test Acc: 0.2506283405899117
+
+python uni_test.py --model E_CPN50 --path ablation_ckpt/wo_light-2.pth.tar --save wo_light2
+Extreme  Test Acc: 0.15625540408125643
+Hard     Test Acc: 0.239668005001744
+Normal   Test Acc: 0.2908167570250661
+All      Test Acc: 0.23557286210639306
+
+python uni_test.py --model E_CPN50 --path ablation_ckpt/wo_light-14.pth.tar --save wo_light14
+Extreme  Test Acc: 0.13603872162256336
+Hard     Test Acc: 0.25712730823041235
+Normal   Test Acc: 0.31526236203619884
+All      Test Acc: 0.24237359149869345
+
+python uni_test.py --model E_CPN50 --path ablation_ckpt/wo_fe-7.pth.tar --save wo_fe
+Extreme  Test Acc: 0.1289104084436788
+Hard     Test Acc: 0.24321457844769162
+Normal   Test Acc: 0.3219990312731169
+All      Test Acc: 0.2386921465282464

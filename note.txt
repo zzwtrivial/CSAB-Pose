@@ -1,0 +1,17 @@
+"/home/wjm/MyFinalProject/train2.lmdb" 存的是裁剪后的低光照图像，没除255，是uint
+(a,b): a是[1,256,192,3]的Tensor，b是[1,14,3]的Tensor
+def show(x):
+    a,b = pickle.loads(txn.get(str(x).encode("ascii")))
+    a =a.squeeze(0)
+    a = a.numpy()
+    plt.imshow(a)
+    plt.show()
+
+"/ExLPose/train.lmdb"和"train2.lmdb"区别：多了
+rgb_mean_LL = np.mean(image_LL, axis=(0, 1))
+scaling_LL = 255 * 0.4 / rgb_mean_LL
+image_LL = image_LL * scaling_LL
+
+"/ExLPose/train.lmdb"                   = [0,255]
+"/ExLPose/test-ll-*.lmdb"               = [0,1]
+"/home/wjm/MyFinalProject/train2.lmdb"  = [0,255]
