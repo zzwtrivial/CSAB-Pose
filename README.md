@@ -1,6 +1,6 @@
 # Enhancing Low-Light Human Pose Estimation via Multi-Branch Cross-Scale Attention
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.xxxxxx.svg)](https://doi.org/10.5281/zenodo.xxxxxx)
+[![DOI](https://zenodo.org/badge/1151267378.svg)](https://doi.org/10.5281/zenodo.18523011)
 
 > **Note:** This is the official implementation of the manuscript **"Enhancing Low-Light Human Pose Estimation via Multi-Branch Cross-Scale Attention"**
 
