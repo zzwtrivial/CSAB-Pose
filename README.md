@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1151267378.svg)](https://doi.org/10.5281/zenodo.18523011)
 
-> **Note:** This is the official implementation of the manuscript **"Enhancing Low-Light Human Pose Estimation via Multi-Branch Cross-Scale Attention"**
+> **Note:** This is the official implementation of the manuscript **"Enhancing Low-Light Human Pose Estimation via Multi-Branch Cross-Scale Attention"** submitted to *The Visual Computer*. Please cite our paper if you find this code useful.
 
 ## 📖 Introduction
 
